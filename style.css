@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans';
+}
+main {
+  background-color: #f5f4f0;
+  border: #d9d9d9;
+  margin: 80px auto 80px;
+  height: 88px;
+  width: 80px;
+
+}
+
+h1 { color: #1b1b1b;
+
+}
+
+h2 {
+  color: #333333;
+}
+
+p {
+  color: #696969;
+}
+img {
+  border-radius: 28px;
+}
