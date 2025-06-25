@@ -1,26 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+font {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 150%;
+  font-style: normal;
+}
 body {
   font-family: 'Open Sans';
 }
 main {
   background-color: #f5f4f0;
   border: #d9d9d9;
-  margin: 80px auto 80px;
-  height: 88px;
-  width: 80px;
-
+  box-sizing: border-box;
+  margin: 80px  88px;
+  width: 1120px auto;
+  height: 3054px auto;
+  padding: 80px 88px;
 }
-
-h1 { color: #1b1b1b;
-
+#title {
+  margin: 40px auto 40px;
+}
+.page {
+  width: 100%;
+  padding: auto 64px;
+}
+.list {
+  padding: 48px;
+  width: 24px auto;
+ 
+}
+section {
+  margin-bottom: 0 64px;
+  padding: 0 32px;
+  
+}
+  
+h1 {
+  
+  font-size: 36px; 
+  color: #1b1b1b;
+  margin: 22px auto 40px
+  
 }
 
 h2 {
+  font-size: 32px;
   color: #333333;
 }
 
 p {
+  font-size: 16px;
   color: #696969;
 }
-img {
+.imagem {
+  box-sizing: border-box;
   border-radius: 28px;
+  width: 100%;
+  height: auto;
+  margin: 48px auto 48px;
+}
+.accent {
+  color: #E1624F;
+
+}
+#list-1 {
+  color: blue;
+}
+
+#list-2 {
+  color:blue;
+}
+#list-3 :nth-child(1) {
+  color: #591B98;
+}
+   #list-3 :nth-child(2) {
+  color: #E5245E;
+  }
+   #list-3 :nth-child(3) {
+  color: #E95E10;
+  }
+ul{
+  padding-left: 24px;
+}
+#descrição {
+
+  padding-top: 80px;
 }
